@@ -322,14 +322,14 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.webp") top center;
+  background: url("../img/dream_house-wallpaper.jpg") top center;
   background-size: cover;
   position: relative;
   /* filter: invert(1) hue-rotate(180deg); */
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.712);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -350,7 +350,7 @@ h6 {
   padding: 0 15px;
 }
 #hero h3 {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.144);
   color: #fff;
   font-size: 26px;
   padding: 10px 30px;
@@ -362,7 +362,7 @@ h6 {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 30px 9px 30px;
@@ -380,20 +380,11 @@ h6 {
     background-attachment: fixed;
   }
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   #hero h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-} */
+}
 @media (max-height: 500px) {
   #hero {
     height: 150vh;
@@ -1739,17 +1730,17 @@ section {
 
 /* typewriter effect */
 
-/* .typewriter-container {
+.typewriter-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
-} */
+}
 
 .typewriter-container p {
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   letter-spacing: 2px;
   padding: 0.5rem;
   text-align: center;
@@ -1771,6 +1762,17 @@ section {
 
 .typewriter-container p span.cursor.typing {
   animation: none;
+}
+
+@media (max-width: 768px) {
+  .typewriter-container p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 425px) {
+  .typewriter-container p {
+    font-size: 1.7rem;
+  }
 }
 
 @keyframes blink {
