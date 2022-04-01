@@ -92,27 +92,41 @@
       </div> <!-- End typewriter effect -->
 
       <!-- Advanced Search-Bar -->
-      <div class="container">
+      <!-- <div class="container">
         <div class="container row row-cols-3">
-          <div class="col g-0 offset-2">
-            <input type="text" class="w-100" id="search-bar" placeholder="Search ...">
+          <div class="col-3 g-0 padding-0 m-0 w-100">
+            <input type="text" class="" id="search-bar" placeholder="Search ...">
           </div>
-          <div class="col g-0">
-            <select id="whoYouAre" class="w-75">
+          <div class="col-3 g-0 padding-0 m-0 w-1004">
+            <select id="whoYouAre" class="">
               <option value="Seller">Seller</option>
               <option value="Rentee">Rentee</option>
             </select>
           </div>
-          <div class="col g-0">
-            <button class="btn btn-primary w-50">Search</button>
+          <div class="col-3 g-0 padding-0 m-0 w-100">
+            <button class="btn btn-primary">Search</button>
           </div>
+        </div> -->
+
+      <div class="search-container">
+        <div class="row g-4">
+          <div class="col-4 col-sm-6">
+            <input type="text" class="form-control" id="inputCity" placeholder="Search...">
+          </div>
+          <div class=" col-4 col-sm-4">
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Rent</option>
+              <option>Buy</option>
+            </select>
+          </div>
+          <!-- <div class="col-2"> -->
+          <button class="btn btn-primary col-2 col-sm-2 search-btn">Search</button>
+          <!-- </div> -->
         </div>
-
-
-
-
       </div>
-      <!-- End Advanced Search-Bar -->
+    </div>
+    <!-- End Advanced Search-Bar -->
 
     </div>
   </section><!-- End Hero -->
