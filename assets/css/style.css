@@ -1728,8 +1728,9 @@ section {
   text-decoration: none;
 }
 
-/* typewriter effect */
-
+/*--------------------------------------------------------------
+# Typerwriter Effect
+--------------------------------------------------------------*/
 .typewriter-container {
   display: flex;
   flex-wrap: wrap;
@@ -1796,3 +1797,21 @@ section {
     background-color: #ccc;
   }
 } /* End typewriter effect */
+
+/*--------------------------------------------------------------
+# Advanced Search-Bar
+--------------------------------------------------------------*/
+/* .search-container {
+  background: rgba(255, 255, 255, 0.171);
+  padding: 3rem;
+  border-radius: 25px;
+  /* position: absolute;
+  top: 68%; 
+} */
+
+/* .search-container input,
+select {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+} */
