@@ -628,7 +628,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.715), rgba(0, 0, 0, 0.584)),
-    url("../img/house-design-2.jpg") center center;
+    url("../img/cta-bg-2.webp") center center;
   background-size: cover;
   padding: 60px 0;
 }
