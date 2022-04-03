@@ -599,7 +599,6 @@ section {
 .features .icon-box:hover a {
   color: var(--primary-color);
 }
-
 .features-heading {
   color: var(--primary-color);
 }
@@ -627,8 +626,8 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.715), rgba(0, 0, 0, 0.584)),
-    url("../img/cta-bg-2.webp") center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)),
+    url("../img/cta-bg.webp") center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -655,18 +654,18 @@ section {
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: var(--primary-color);
-  border: 2px solid var(--primary-color);
+  background: #e43c5c;
+  border: 2px solid #e43c5c;
 }
 @media (min-width: 1024px) {
   .cta {
     background-attachment: fixed;
   }
 }
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -752,6 +751,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
