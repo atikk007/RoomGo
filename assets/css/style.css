@@ -618,17 +618,18 @@ section {
   box-shadow: rgb(46 46 46 / 65%) 3px 3px 11px 0px;
 }
 
-/* .features-img {
-  width: 416px;
-  height: 277.32px;
-} */
+.features-img {
+  width: 365px;
+  height: 230px;
+  border-radius: 8px;
+}
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.715), rgba(0, 0, 0, 0.584)),
-    url("../img/cta-bg-2.webp") center center;
+    url("../img/cta-bg.webp") center center;
   background-size: cover;
   padding: 60px 0;
 }
