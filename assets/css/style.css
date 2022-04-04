@@ -1660,7 +1660,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #d01d3f;
+  background: #0f7e00;
   color: #fff;
   text-decoration: none;
 }
