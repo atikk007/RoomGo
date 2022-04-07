@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertise Your Property|Room-Rental</title>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="./assets/css/advertise.css">
+</head>
+
+<body>
+
+    <!-- Upload Area -->
+    <div id="uploadArea" class="upload-area container">
+        <!-- Header -->
+        <div class="upload-area__header">
+            <h1 class="upload-area__title">Upload your file</h1>
+            <p class="upload-area__paragraph">
+                File should be an image
+                <strong class="upload-area__tooltip">
+                    Like
+                    <span class="upload-area__tooltip-data"></span> <!-- Data Will be Comes From Js -->
+                </strong>
+            </p>
+        </div>
+        <!-- End Header -->
+
+        <!-- Drop Zoon -->
+        <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
+            <span class="drop-zoon__icon">
+                <i class='bx bxs-file-image'></i>
+            </span>
+            <p class="drop-zoon__paragraph">Drop your file here or Click to browse</p>
+            <span id="loadingText" class="drop-zoon__loading-text">Please Wait</span>
+            <img src="" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image" draggable="false">
+            <input type="file" id="fileInput" class="drop-zoon__file-input" accept="image/*">
+        </div>
+        <!-- End Drop Zoon -->
+
+        <!-- File Details -->
+        <div id="fileDetails" class="upload-area__file-details file-details">
+            <h3 class="file-details__title">Uploaded File</h3>
+
+            <div id="uploadedFile" class="uploaded-file">
+                <div class="uploaded-file__icon-container">
+                    <i class='bx bxs-file-blank uploaded-file__icon'></i>
+                    <span class="uploaded-file__icon-text"></span> <!-- Data Will be Comes From Js -->
+                </div>
+
+                <div id="uploadedFileInfo" class="uploaded-file__info">
+                    <span class="uploaded-file__name">Proejct 1</span>
+                    <span class="uploaded-file__counter">0%</span>
+                </div>
+            </div>
+        </div>
+        <!-- End File Details -->
+        <button id="upload-btn" class="btn btn-outline-primary rounded-3 mt-3">Upload</button>
+    </div>
+    <script src="./assets/js/advertise.js"></script>
+    <!-- End Upload Area -->
+</body>
+
+</html>
