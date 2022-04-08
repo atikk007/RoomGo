@@ -204,4 +204,5 @@ function fileValidate(fileType, fileSize) {
     };
 };
 
-// :)
+
+

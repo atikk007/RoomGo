@@ -316,3 +316,28 @@ body {
   font-size: 1rem;
   color: var(--clr-light-gray);
 }
+
+/* Navbar */
+
+/* .nav-link,
+.navbar .active,
+.navbar a,
+.navbar a:focus,
+.navbar a:hover {
+  color: black;
+} */
+
+/* .navbar a,
+.nav-link,
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: black;
+} */
+
+#header.header-scrolled,
+#header.header-inner-pages {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 12px 0;
+}
